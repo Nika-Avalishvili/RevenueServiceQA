@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Final Project Suite" verbose="1" thread-count="1" parallel="tests">
+    <test name="Authorization" parallel="tests">
+        <classes>
+            <class name="com.aqa.RevenueService.authorization.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Waybills" parallel="tests">
+        <classes>
+            <class name="com.aqa.RevenueService.waybill.IssuedWaybillTest"/>
+            <class name="com.aqa.RevenueService.waybill.ReceivedWaybillTest"/>
+            <class name="com.aqa.RevenueService.waybill.WaybillGridTest"/>
+        </classes>
+    </test>
+    <test name="Tax Returns" parallel="tests">
+        <classes>
+            <class name="com.aqa.RevenueService.declaration.PersonalIncomeTaxDeclarationTest"/>
+            <class name="com.aqa.RevenueService.declaration.CorporateIncomeTaxDeclarationTest"/>
+            <class name="com.aqa.RevenueService.declaration.ValueAddedTaxDeclarationTest"/>
+        </classes>
+    </test>
+    <test name="Calculators" parallel="tests">
+        <classes>
+            <class name="com.aqa.RevenueService.calculator.TaxCalculatorTest"/>
+            <class name="com.aqa.RevenueService.calculator.LevyCalculatorTest"/>
+        </classes>
+    </test>
+</suite>

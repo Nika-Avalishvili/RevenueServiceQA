@@ -8,9 +8,9 @@
     </test>
     <test name="Waybills" parallel="tests">
         <classes>
-            <class name="com.aqa.RevenueService.waybill.IssuedWaybillTest"/>
-            <class name="com.aqa.RevenueService.waybill.ReceivedWaybillTest"/>
-            <class name="com.aqa.RevenueService.waybill.WaybillGridTest"/>
+            <class name="com.aqa.RevenueService.waybill.IssuedWaybillsTest"/>
+            <class name="com.aqa.RevenueService.waybill.ReceivedWaybillsTest"/>
+            <class name="com.aqa.RevenueService.waybill.WaybillsGridTest"/>
         </classes>
     </test>
     <test name="Tax Returns" parallel="tests">

@@ -2,5 +2,5 @@ package com.aqa.RevenueService.waybill;
 
 import com.aqa.RevenueService.Utils.ChromeRunner;
 
-public class ReceivedWaybillTest extends ChromeRunner {
+public class WaybillsGridTest extends ChromeRunner {
 }

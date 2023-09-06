@@ -30,4 +30,5 @@ public class LoginPageTest extends ChromeRunner {
         Assert.assertEquals(actualUserName, LoginPageData.userName);
         Assert.assertEquals(actualUserId, LoginPageData.userId);
     }
+
 }

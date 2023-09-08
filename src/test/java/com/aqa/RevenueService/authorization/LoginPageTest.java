@@ -27,8 +27,8 @@ public class LoginPageTest extends ChromeRunner {
                 .shouldBe(Condition.visible)
                 .getText();
 
-        Assert.assertEquals(actualUserName, LoginPageData.userName);
-        Assert.assertEquals(actualUserId, LoginPageData.userId);
+        Assert.assertEquals(actualUserName, LoginPageData.userName, "Username has displayed correctly!");
+        Assert.assertEquals(actualUserId, LoginPageData.userId, "UserId has displayed correctly!");
     }
 
 }

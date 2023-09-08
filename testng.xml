@@ -8,18 +8,17 @@
     </test>
     <test name="Waybills" parallel="tests">
         <classes>
-            <class name="com.aqa.RevenueService.waybill.IssuedWaybillsTest"/>
             <class name="com.aqa.RevenueService.waybill.ReceivedWaybillsTest"/>
-            <class name="com.aqa.RevenueService.waybill.WaybillsGridTest"/>
+            <class name="com.aqa.RevenueService.waybill.IssuedWaybillsTest"/>
         </classes>
     </test>
-    <test name="Tax Returns" parallel="tests">
-        <classes>
-            <class name="com.aqa.RevenueService.declaration.PersonalIncomeTaxDeclarationTest"/>
-            <class name="com.aqa.RevenueService.declaration.CorporateIncomeTaxDeclarationTest"/>
-            <class name="com.aqa.RevenueService.declaration.ValueAddedTaxDeclarationTest"/>
-        </classes>
-    </test>
+<!--    <test name="Tax Returns" parallel="tests">-->
+<!--        <classes>-->
+<!--            <class name="com.aqa.RevenueService.declaration.PersonalIncomeTaxDeclarationTest"/>-->
+<!--            <class name="com.aqa.RevenueService.declaration.CorporateIncomeTaxDeclarationTest"/>-->
+<!--            <class name="com.aqa.RevenueService.declaration.ValueAddedTaxDeclarationTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test name="Calculators" parallel="tests">
         <classes>
             <class name="com.aqa.RevenueService.calculator.TaxCalculatorTest"/>

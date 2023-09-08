@@ -18,11 +18,13 @@ public class IssuedWaybillsSteps extends WaybillsPage {
     public IssuedWaybillsSteps loginByTestUser() {
         testUsersSectionBttn.click();
         testUserBttn.click();
+        sleep(100);
         return this;
     }
 
     @Step("3. Go to Manu Page")
     public IssuedWaybillsSteps goToMenu() {
+        sleep(100);
         menuBttn.click();
         sleep(100);
         return this;
@@ -32,6 +34,7 @@ public class IssuedWaybillsSteps extends WaybillsPage {
     public IssuedWaybillsSteps goToWaybillsPage() {
         waybillsSectionBttn.click();
         closePopUp();
+        sleep(100);
         return this;
     }
 
@@ -46,13 +49,13 @@ public class IssuedWaybillsSteps extends WaybillsPage {
     public IssuedWaybillsSteps selectWaybillType(String waybillType) {
         sleep(200);
         waybillTypeInput.selectOption(waybillType);
-        sleep(500);
+        sleep(200);
         return this;
     }
 
     @Step("7. Set Vendor ID: {vendorId}")
     public IssuedWaybillsSteps setVendorId(String vendorId) {
-        sleep(500);
+        sleep(100);
         vendorIdInput.setValue(vendorId);
         vendorIdInput.pressEnter();
         sleep(200);

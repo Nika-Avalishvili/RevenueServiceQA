@@ -48,7 +48,7 @@ public class IssuedWaybillsTest extends ChromeRunner {
 
         Integer finalNumberOfInvoices = numberOfWaybills();
 
-        Assert.assertEquals(finalNumberOfInvoices, initialNumOfWaybills + 1);
+        Assert.assertEquals(finalNumberOfInvoices, initialNumOfWaybills + 1, "New waybill has successfully added in the grid!");
     }
 
     private Integer numberOfWaybills() {

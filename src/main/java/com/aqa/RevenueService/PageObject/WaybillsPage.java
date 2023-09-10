@@ -39,5 +39,4 @@ public class WaybillsPage extends LoginPage {
             receivedWaybillsSection = $(By.id("tabWaybillsReceived")).$(new ByTagAndText("l", "მიღებული")),
             gridSizeSelector = $(By.id("rsGrid_grdWaybills_v2")).$(".rsGridMaxRows");
 
-
 }

@@ -46,14 +46,14 @@ public class ReceivedWaybillsSteps extends WaybillsPage {
 
     @Step("6. Change grid size to: {greedSize}")
     public ReceivedWaybillsSteps changeGridSize(String greedSize) {
-        sleep(100);
+        sleep(200);
         gridSizeSelector.selectOption(greedSize);
         sleep(200);
         return this;
     }
 
-    private void closePopUp(){
-        if (popUpWindow.is(Condition.visible)){
+    private void closePopUp() {
+        if (popUpWindow.is(Condition.visible)) {
             popUpWindow.click();
         }
     }

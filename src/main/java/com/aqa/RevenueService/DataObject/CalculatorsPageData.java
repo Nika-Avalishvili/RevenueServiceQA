@@ -1,6 +1,7 @@
 package com.aqa.RevenueService.DataObject;
 
 public interface CalculatorsPageData {
+
     Boolean hybrid = true,
             electric = true,
             isSteeringWheel = true;
@@ -12,4 +13,5 @@ public interface CalculatorsPageData {
             productPrice = "5900",
             transportationExpenses = "1200",
             otherExpenses = "900";
+
 }
